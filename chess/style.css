@@ -8,12 +8,14 @@ body {
   width: 70%;
   height: 70%;
 }
+
 #board div {
   border: 1px solid black;
   width: 30%;
   height: 30%;
   display: inline-block;
 }
+
 #board div:nth-child(even) {
   color: azure;
   background-color: black;
