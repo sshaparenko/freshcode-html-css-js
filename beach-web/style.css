@@ -31,7 +31,9 @@ body {
   padding-bottom: 15px;
   line-height: 30px;
 }
-.welcome button {
+.welcome a {
+  text-decoration: none;
+
   margin-top: 20px;
   padding: 15px;
 
@@ -41,11 +43,10 @@ body {
   border: 1px solid var(--darker-brown);
   border-radius: 10px;
   
-
   display: inline-block;
   min-width: 130px;
 }
-.welcome button:hover {
+.welcome a:hover {
   background-color: var(--darker-brown);
   color: #fff;
 }
