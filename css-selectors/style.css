@@ -1,0 +1,13 @@
+[title] {
+  color: red;
+}
+h1.test {
+  font-weight: bold;
+  font-size: 26px;
+}
+.text-1.text-2{
+  /* Selector Specificity */
+}
+p#some-id.some-class {
+  /* Selector Specificity */
+}
